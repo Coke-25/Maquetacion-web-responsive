@@ -1,0 +1,692 @@
+/*Smooth Scroll*/
+html 
+{
+    scroll-behavior: smooth;
+}
+
+                /*Barra de menu*/
+
+#menu
+{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+#menu button
+{
+    margin-right: 5vw;
+}
+/*Darle transparencia al menu*/
+.bg-light
+{
+    background-color: #e2e2e2b6!important;
+}
+
+#icono
+{
+    border-radius: 30px;
+}
+/*Agrandar las letras del menú*/
+.navbar-light .navbar-nav .nav-link
+{
+    font-size: 20px;
+}
+
+
+
+
+                /*----------Secciones de la página-----------*/
+
+/*Inicio*/
+#inicio
+{
+    height: 100vh;
+    background-image: url("../img/inicio.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: scroll;
+
+    color:white;
+    font-family: 'Russo One', sans-serif;
+}
+
+@media (max-width: 575px)
+{
+    #inicio h1
+    {
+    font-size: 8.5vw;
+    margin-left: 2vw;
+    margin-top: 30vh;
+    text-align: center;
+    }
+    #inicio h2
+    {   
+    font-size: 7vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #inicio h1
+    {
+    font-size: 7vw;
+    margin-left: 2vw;
+    margin-top: 30vh;
+    text-align: center;
+    }
+    #inicio h2
+    {   
+    font-size: 6vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #inicio h1
+    {
+    font-size: 6vw;
+    margin-left: 2vw;
+    margin-top: 32vh;
+    text-align: center;
+    }
+    #inicio h2
+    {   
+    font-size: 5vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #inicio h1
+    {
+    font-size: 6vw;
+    margin-left: 2vw;
+    margin-top: 32vh;
+    text-align: center;
+    }
+    #inicio h2
+    {   
+    font-size: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    text-align: center;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    #inicio h1
+    {
+    font-size: 5vw;
+    margin-left: 13vw;
+    margin-top: 32vh;
+    }
+    #inicio h2
+    {   
+    font-size: 4vw;
+    margin-left: 11vw;
+    margin-top: 10vh;
+    }
+}
+
+
+
+
+
+
+/*Presentación*/
+
+#presentacion h1
+{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+#presentacion p
+{
+    text-align: justify;
+}
+
+@media (max-width: 575px)
+{
+    #presentacion h1
+    {
+        font-size: 10vw;
+    }
+    #presentacion p
+    {
+        margin: 10vh 1.5vw 0vh 1.5vw;
+        font-size: 5vw;
+    }
+    #presentacion .slide
+    {
+        margin: 15vh 0vw 10vh 0vw;
+    }
+    #presentacion .slide img
+    {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #presentacion h1
+    {
+        font-size: 7vw;
+    }
+    #presentacion p
+    {
+        margin: 10vh 1.5vw 0vh 1.5vw;
+        font-size: 3vw;
+    }
+    #presentacion .slide
+    {
+        margin: 15vh 0vw 10vh 0vw;
+    }
+    #presentacion .slide img
+    {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #presentacion h1
+    {
+        font-size: 5vw;
+    }
+    #presentacion p
+    {
+        margin: 10vh 1.5vw 0vh 1.5vw;
+        font-size: 2.5vw;
+    }
+    #presentacion .slide
+    {
+        margin: 15vh 0vw 10vh 0vw;
+    }
+    #presentacion .slide img
+    {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #presentacion h1
+    {
+        font-size: 4vw;
+    }
+    #presentacion p
+    {
+        margin: 10vh 1.5vw 5vh 1.5vw;
+        font-size: 2vw;
+    }
+    #presentacion .slide
+    {
+        margin: 5vh 15vw 10vh 15vw;
+    }
+    #presentacion .slide img
+    {
+        width: 70vw;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    #presentacion h1
+    {
+        font-size: 3vw;
+    }
+    #presentacion p
+    {
+        margin: 10vh 1.5vw 5vh 1.5vw;
+        font-size: 1.5vw;
+    }
+    #presentacion .slide
+    {
+        margin: 5vh 20vw 10vh 20vw;
+    }
+    #presentacion .slide img
+    {
+        width: 60vw;
+    }
+}
+
+
+
+
+
+
+/*Características*/
+
+#caracteristicas
+{
+    background-image: url("../img/caracteristicas.png");
+    background-repeat: repeat;
+    padding-bottom: 10vh;
+}
+
+#caracteristicas h1
+{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#caracteristicas i
+{
+    color: white;
+    margin-top: 5vh;
+}
+
+#caracteristicas h2
+{
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#caracteristicas p
+{
+    color: white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+@media (max-width: 575px)
+{
+    #caracteristicas h1
+    {
+        font-size: 10vw;
+    }
+    #caracteristicas i
+    {
+        font-size: 24vw;
+        margin-left: 32vw;
+    }
+    #caracteristicas h2
+    {
+        font-size: 6vw;
+    }
+    #caracteristicas p
+    {
+        font-size: 4vw;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #caracteristicas h1
+    {
+        font-size: 8vw;
+    }
+    #caracteristicas i
+    {
+        font-size: 17vw;
+        margin-left: 38vw;
+    }
+    #caracteristicas h2
+    {
+        font-size: 5vw;
+    }
+    #caracteristicas p
+    {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #caracteristicas h1
+    {
+        font-size: 7vw;
+    }
+    #caracteristicas i
+    {
+        font-size: 14vw;
+        margin-left: 41vw;
+    }
+    #caracteristicas h2
+    {
+        font-size: 4vw;
+    }
+    #caracteristicas p
+    {
+        font-size: 2vw;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #caracteristicas h1
+    {
+        font-size: 4vw;
+    }
+    #caracteristicas i
+    {
+        font-size: 10vw;
+        margin-left: 20vw;
+    }
+    #caracteristicas h2
+    {
+        font-size: 2vw;
+    }
+    #caracteristicas p
+    {
+        font-size: 1.5vw;
+        text-align: justify;
+    }
+}
+
+@media (min-width:1200px)
+{
+    #caracteristicas h1
+    {
+        font-size: 4vw;
+    }
+    #caracteristicas i
+    {
+        font-size: 10vw;
+        margin-left: 20vw;
+    }
+    #caracteristicas h2
+    {
+        font-size: 2vw;
+    }
+    #caracteristicas p
+    {
+        font-size: 1.2vw;
+        text-align: justify;
+    }
+}
+
+
+
+
+
+/*Beneficios*/
+#beneficios img
+{
+    margin-top: 10vh;
+    border-radius: 30px;
+}
+
+#beneficios h2
+{
+    text-align: center;
+    margin-top: 14vh;
+    font-family: 'Russo One', sans-serif;
+}
+
+#beneficios p
+{
+    text-align: justify;
+}
+
+@media (max-width: 575px)
+{
+    #beneficios img
+    {
+        width:80vw;
+        margin-left: 7vw;
+    }
+    #beneficios h2
+    {
+        font-size: 6vw;
+    }
+    #beneficios p
+    {
+        font-size: 4vw;
+        margin: 8vh 7vw 3vw 7vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #beneficios img
+    {
+        width:70vw;
+        margin-left: 10vw;
+    }
+    #beneficios h2
+    {
+        font-size: 6vw;
+    }
+    #beneficios p
+    {
+        font-size: 3vw;
+        margin: 10vh 7vw 3vw 7vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #beneficios img
+    {
+        width:60vw;
+        margin-left: 17vw;
+    }
+    #beneficios h2
+    {
+        font-size: 5vw;
+    }
+    #beneficios p
+    {
+        font-size: 2.5vw;
+        margin: 10vh 7vw 3vw 7vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #beneficios img
+    {
+        width:40vw;
+        margin-left: 3vw;
+    }
+    #beneficios h2
+    {
+        font-size: 3.2vw;
+    }
+    #beneficios p
+    {
+        font-size: 2vw;
+        margin: 10vh 7vw 3vw 7vw;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    #beneficios img
+    {
+        width:40vw;
+        margin-left: 3vw;
+    }
+    #beneficios h2
+    {
+        font-size: 3.2vw;
+    }
+    #beneficios p
+    {
+        font-size: 1.5vw;
+        margin: 10vh 7vw 3vw 7vw;
+    }
+}
+
+/*Compra*/
+
+#compra
+{
+    background:white;
+    -wedkit-transition:background 3s;
+    -moz-transition:background 3s;
+    transition:background 3s;
+    margin-top: 13vh;
+}
+
+#compra:hover
+{
+    background:#333B44;
+}
+
+#compra h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 22vh;
+}
+
+#compra p
+{
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#compra button
+{
+    border-radius: 30px;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    width: 60vw;
+    height: 30vh;
+    font-size: 5vw;
+}
+
+@media (max-width: 575px)
+{
+    #compra h1
+    {
+        font-size: 7vw;
+    }
+
+    #compra p
+    {
+        font-size: 3vw;
+    }
+
+    #compra button
+    {
+        margin-left: 18vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #compra h1
+    {
+        font-size: 4.5vw;
+    }
+
+    #compra p
+    {
+        font-size: 2vw;
+    }
+
+    #compra button
+    {
+        margin-left: 18vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #compra h1
+    {
+        font-size: 4.2vw;
+    }
+
+    #compra p
+    {
+        font-size: 1.8vw;
+    }
+
+    #compra button
+    {
+        margin-left: 18vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #compra h1
+    {
+        font-size: 4vw;
+    }
+
+    #compra p
+    {
+        font-size: 1.5vw;
+    }
+
+    #compra button
+    {
+        margin-left: 19vw;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    #compra h1
+    {
+        font-size: 3vw;
+    }
+
+    #compra p
+    {
+        font-size: 1.2vw;
+    }
+
+    #compra button
+    {
+        margin-left: 20vw;
+    }
+}
+
+/*Contacto*/
+
+#contacto
+{
+    margin: 10vh 10vw 10vh 13vw;
+    width: 73vw;
+}
+#contacto h1
+{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 4vw; 
+    margin-bottom: 10vh;
+}
+
+
+/*pie de página*/
+
+#pie_de_pagina
+{
+    background-color: #333b44;
+}
+#pie_de_pagina p
+{
+    color:white;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
